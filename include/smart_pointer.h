@@ -3,7 +3,7 @@
 template<typename T>
 class smart_pointer
 {
-    private:
+    protected:
     T* m_ptr;
 
     public:
